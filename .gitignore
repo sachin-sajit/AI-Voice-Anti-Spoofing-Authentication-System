@@ -1,0 +1,30 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large audio raw datasets and processed indexes
+**/data/raw/
+**/data/processed/
+**/data/enrolled/
+
+# Speaker Model cache (downloaded via SpeechBrain at runtime)
+**/models/speaker_model_cache/
+*.ckpt
+
+# Temporary logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/

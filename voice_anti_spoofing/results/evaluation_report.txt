@@ -1,0 +1,17 @@
+====================================================
+  VOICE ANTI-SPOOFING MODEL EVALUATION REPORT
+====================================================
+
+Accuracy         : 100.00%
+Precision        : 100.00%
+Recall           : 100.00%
+F1-Score         : 100.00%
+ROC-AUC          : 1.0000
+Equal Error Rate : 0.00%
+Optimal Threshold: 0.9983
+
+Confusion Matrix:
+  TN (Live correctly classified): 22
+  FP (Live misclassified spoof) : 0
+  FN (Replay misclassified live): 0
+  TP (Replay correctly classified): 22
